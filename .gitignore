@@ -1,0 +1,20 @@
+# Security
+.env
+
+# Database
+*.db
+*.db-*
+
+# Data files (Preventing private data leak)
+data/real_documents/*
+!data/real_documents/.gitkeep
+data/synthetic/
+
+# Caches & Logs
+evals/report.json
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual Environment
+.venv/

@@ -58,8 +58,6 @@ Confidence is **computed by the pipeline** from field completeness and whether t
 | Field accuracy vs reviewer corrections | 0 reviews completed |
 | Sent to human review | 77.8% |
 
-*Test data: [e.g. 40 Northwind invoice PDFs and 5 hand-made lab reports]. Generate this table with `python evals/report.py`.*
-
 ## Quick start
 ```bash
 git clone https://github.com/NamTas/trustgate-etl.git

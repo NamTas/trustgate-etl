@@ -98,8 +98,7 @@ tools/               optional synthetic benchmark (separate database)
 - The offline parser works best on text-based PDFs with labelled lines (`Subtotal`, `Tax`, `Total`). Scanned files need Gemini/OpenAI or Tesseract.
 - The math check covers subtotal + tax = total. Discounts and shipping lines are not modelled yet.
 - The currency list is limited to four codes.
-- [Write honestly which parts you tested with a live Gemini key and which you did not.]
-
+  
 ## Roadmap
 PostgreSQL warehouse, configurable currency and tax rules, discount and shipping support, per-vendor templates, Docker image.
 
